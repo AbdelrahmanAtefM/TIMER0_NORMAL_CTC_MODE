@@ -23,7 +23,7 @@ int main ()
 	    M_TIMER0_void_Timer0SetCallBack(A_TIMER0_void_Timer0Exc);
 	    //// Enabling the general interrupts
 	    M_GIE_void_GIE_EN();
-	    //// initialize blue led
+	    //// initialize TIMER0
         M_TIMER0_void_Timer0Int();
         /// function to set desired  time to the TIMER0
         M_TIMER0_U8_Timer0SetTime(500);   ///  desired time (500ms)
